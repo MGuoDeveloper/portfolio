@@ -9,7 +9,7 @@ var async = require('async');
 var request = require('request');
 
 // connect to mongodb
-var configDB = require('./config/database.js');
+var configDB = require('./conf/db.js');
 var db = mongoose.connect(configDB.url);
 db.connection.on("error", function (error) {
   console.log("database connect error：" + error);

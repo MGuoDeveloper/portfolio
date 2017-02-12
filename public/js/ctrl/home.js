@@ -1,13 +1,20 @@
 (function(){
     'use strict';
     angular.module('comp.home', [])
-        .controller('homectrl', function($scope){
-
+        .controller('homectrl', function(HomeSer){
+            var vm = this;
+            HomeSer.allblog()
+                .then(function(data){
+                    vm.blogs = data;
+                })
+                .catch(function(err){
+                    vm.blogs = [];
+                });
         })
         .config(function($stateProvider, $locationProvider){
             $stateProvider
                 .state('home', {
-                    url: '/home',
+                    url: '/',
                     templateUrl: 'js/ctrl/home.html',
                     controller: 'homectrl as vm'
                 });

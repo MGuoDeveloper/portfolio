@@ -6,12 +6,26 @@ var async = require("async");
 var request=require('request');
 
 // home.ejs
-router.get('/', function(req, res){
+router.get('/', function(req, res, next){
     res.render("index");
 });
 
-router.get('/home', function(req, res){
+router.get('/home', function(req, res, next){
     res.render("index");
+});
+
+router.get('/blog/angular1vs2', function(req, res, next){
+    res.render("index");
+});
+
+router.get('/allblog', function(req, res, next){
+    fs.readFile('./data/blog.json', function (err, data) {
+        if (err) {
+            res.send(err);
+        } else {
+            res.status(200).send(JSON.parse(data));
+        }
+    });
 });
 
 module.exports = router;

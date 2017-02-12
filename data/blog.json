@@ -1,0 +1,9 @@
+[
+  {
+    "title": "Angular 2 vs. Angular 1: Key Differences",
+    "image": "/img/blog/angular1vs2.jpg",
+    "date": "Feb 11, 2017",
+    "desc": "There are some key difference between Angular 1 and Angular 2. Angular 2 is written entirely in Typescript and meets the ECMAScript 6 specification. And Component-based development and object orientation are much easier for Angular 2.",
+    "name": "angular1vs2"
+  }
+]

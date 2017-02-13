@@ -23,7 +23,7 @@
                 $scope.reserve[key] = localStorage.getItem(key);
             }
             $scope.completeReserve　= function(user){
-                user.num = localStorage.getItem('num');
+                /*user.num = localStorage.getItem('num');
                 user.date = localStorage.getItem('dat');
                 user.time = localStorage.getItem('tim');
                 $http({
@@ -34,7 +34,7 @@
                     console.log("success");
                 }).catch(function (err) {
                     console.log("fail");
-                })
+                })*/
             };
         })
         .config(function($stateProvider, $locationProvider){

@@ -18,6 +18,12 @@
                     templateUrl: 'js/ctrl/home.html',
                     controller: 'homectrl as vm'
                 });
+            $stateProvider
+                .state('blog', {
+                    url: '/blog',
+                    templateUrl: 'js/ctrl/home.html',
+                    controller: 'homectrl as vm'
+                });
             $locationProvider.html5Mode(true);
         })
 })();

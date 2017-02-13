@@ -1,0 +1,55 @@
+.app .spa {
+    border: 1px solid #dadada;
+    border-radius: 15px;
+    padding: 0;
+    height: 150px;
+    overflow: hidden;
+}
+
+.app .spaimg {
+    border-radius: 15px;
+}
+
+.spa div {
+    margin: 0;
+    height: 150px;
+    overflow: hidden;
+}
+
+.spa .spaimg img {
+    left: -27%;
+    top: 0;
+    position: absolute;
+    width: auto;
+    height: 100%;
+}
+
+.spa .apptitle {
+    color: #080808;
+    font: 20px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.spa .appdesc {
+    color: #666666;
+    font: 20px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.spa .applink, .spa a {
+    color: #d43f3a;
+    font: 20px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.spa a:hover {
+    text-decoration: none;
+    color: #c9302c;
+}
+
+.spa p {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.spa p img {
+    width: 20px;
+    height: auto;
+}

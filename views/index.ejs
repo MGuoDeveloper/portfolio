@@ -15,10 +15,15 @@
 
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/blog.css" />
+    <link rel="stylesheet" href="/css/app.css" />
+    <link rel="stylesheet" href="/css/about.css" />
     <script type="text/javascript" src="/js/ctrl/geek.js"></script>
     <script type="text/javascript" src="/js/ctrl/home.js"></script>
+    <script type="text/javascript" src="/js/ctrl/apps.js"></script>
+    <script type="text/javascript" src="/js/ctrl/about.js"></script>
     <script type="text/javascript" src="/js/ctrl/blog.js"></script>
     <script type="text/javascript" src="/js/ser/homeser.js"></script>
+    <script type="text/javascript" src="/js/ser/appser.js"></script>
     <script type="text/javascript" src="/js/script.js"></script>
 
     <base href="/" />
@@ -34,17 +39,17 @@
                 <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand"><img style="width: 22px; height: auto" src="/img/geek.png"></a>
-            <a class="navbar-brand" href="/home">M.G.</a>
+            <a class="navbar-brand" ui-sref="home">M.G.</a>
         </div>
 
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-left">
                 <li>&nbsp;&nbsp;&nbsp;</li><li>&nbsp;&nbsp;&nbsp;</li><li>&nbsp;&nbsp;&nbsp;</li>
-                <li><a href="/home">Blog</a></li>
+                <li><a ui-sref="blog">Blog</a></li>
                 <li>&nbsp;&nbsp;&nbsp;</li><li>&nbsp;&nbsp;&nbsp;</li><li>&nbsp;&nbsp;&nbsp;</li><li>&nbsp;&nbsp;&nbsp;</li>
-                <li><a href="/home">Applications</a></li>
+                <li><a ui-sref="apps">Applications</a></li>
                 <li>&nbsp;&nbsp;&nbsp;</li><li>&nbsp;&nbsp;&nbsp;</li><li>&nbsp;&nbsp;&nbsp;</li><li>&nbsp;&nbsp;&nbsp;</li>
-                <li><a href="/home">About Me</a></li>
+                <li><a ui-sref="about">About Me</a></li>
                 <li>&nbsp;&nbsp;&nbsp;</li><li>&nbsp;&nbsp;&nbsp;</li><li>&nbsp;&nbsp;&nbsp;</li><li>&nbsp;&nbsp;&nbsp;</li>
             </ul>
         </div>

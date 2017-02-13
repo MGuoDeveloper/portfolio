@@ -54,4 +54,16 @@ router.get('/allapps', function(req, res, next){
     });
 });
 
+router.get('/booking', function(req, res, next) {
+    res.render('booking', { title: 'Eat Booking System' });
+});
+
+router.get('/booking/contactinfo', function(req, res, next) {
+    res.render('booking', { title: 'Eat Booking System' });
+});
+
+router.post('/complete/reserve', function(req, res, next){
+    res.status(200).send("OK");
+});
+
 module.exports = router;

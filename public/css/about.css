@@ -1,10 +1,10 @@
 .about img {
     width: auto;
-    height: 30px;
+    height: 26px;
 }
 
 .about {
-    font: 30px "Lucida Grande", Helvetica, Arial, sans-serif;
+    font: 26px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 .about p {
@@ -20,7 +20,7 @@
     text-decoration: none;
 }
 
-.about h1 {
+.about h2 {
     color: #23528d;
     font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
     margin-bottom: 50px;

@@ -13,6 +13,10 @@ a {
   text-decoration: none;
 }
 
+a:active, a:hover, a:visited {
+  text-decoration: none;
+}
+
 #nav a {
   font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
   font-size: 18px;

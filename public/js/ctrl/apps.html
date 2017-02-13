@@ -2,13 +2,13 @@
     <h2>Apps</h2>
 </div>
 <div ng-repeat="app in vm.apps track by $index" class="container app">
-    <div class="row spa">
+    <div class="row spa" move-shadow>
         <div class="col-sm-2 spaimg">
             <img ng-src = "{{app.img}}" class="img-rounded">
         </div>
         <div class="col-sm-10">
             <p class="apptitle">{{app.title}}</p>
-            <p class="appdesc">{{app.desc}}, {{app.date}}</p>
+            <p class="appdesc">{{app.desc}} &nbsp;&nbsp; <span class="italic">{{app.date}}</span></p>
             <p class="applink"><img ng-src="/img/link.jpg"><a href="{{app.resource}}" target="_blank">Project Page</a></p>
         </div>
     </div>

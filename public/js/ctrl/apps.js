@@ -25,7 +25,7 @@
                 restrict: 'A', //attribute only
                 link: function(scope, elem, attr, ctrl) {
                     elem.bind('dblclick', function(e) {
-                        
+
                     });
                 }
             };

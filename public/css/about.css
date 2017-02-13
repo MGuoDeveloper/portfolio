@@ -19,3 +19,9 @@
     color: #66afe9;
     text-decoration: none;
 }
+
+.about h1 {
+    color: #23528d;
+    font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+    margin-bottom: 50px;
+}

@@ -1,12 +1,11 @@
 body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background-color: #EEEEEE;
+  background-color: #fefefe;
   height:100%;
 }
 
 #nav {
-  background: linear-gradient(to right, #666666, #BBBBBB);
-
+  background: linear-gradient(to right, #222222, #666666);
 }
 
 a {
@@ -21,20 +20,20 @@ a {
 }
 
 #nav a:hover {
-  color: #afd9ee;
+  color: #66afe9;
 }
 
 .panel a {
-  color: #337ab7;
+  color: #d43f3a;
 }
 
 .panel a:hover {
-  color: #286090;
+  color: #FF0000;
   text-decoration: none;
 }
 
 #view{
-  height: 90%;
+  margin-top: 100px;
 }
 
 .row .col-sm-4 img {
@@ -44,7 +43,12 @@ a {
 
 .panel {
   font: 16px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background-color: #EFEFEF;
+  background-color: #fcfcfc;
+  border: 0;
+}
+
+.panel-heading .panel-body {
+  background-color: #fcfcfc;
   border: 0;
 }
 
@@ -73,5 +77,5 @@ footer {
   height:40px;
   width:100%;
   font-size: 11px;
-  color: #AAAAAA;
+  color: #AFAFAF;
 }

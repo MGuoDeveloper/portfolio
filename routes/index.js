@@ -18,6 +18,10 @@ router.get('/blog/angular1vs2', function(req, res, next){
     res.render("index");
 });
 
+router.get('/blog/reactvsangular2', function(req, res, next){
+    res.render("index");
+});
+
 router.get('/allblog', function(req, res, next){
     fs.readFile('./data/blog.json', function (err, data) {
         if (err) {

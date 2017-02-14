@@ -4,6 +4,7 @@
         'ui.router',
         'comp.home',
         'comp.apps',
+        'comp.skills',
         'comp.about',
         'comp.blog',
         'ser.home',

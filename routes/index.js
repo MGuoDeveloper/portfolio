@@ -22,6 +22,10 @@ router.get('/apps', function(req, res, next){
     res.render("index");
 });
 
+router.get('/skills', function(req, res, next){
+    res.render("index");
+});
+
 router.get('/about', function(req, res, next){
     res.render("index");
 });

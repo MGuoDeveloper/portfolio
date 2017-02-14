@@ -101,3 +101,7 @@
     height: 100px;
     width: auto;
 }
+
+.about .d3demo {
+    font-size: 16px;
+}
